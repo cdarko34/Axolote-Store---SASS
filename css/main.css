@@ -110,6 +110,22 @@ select {
 .strong-purple-bg {
   background-color: #8093f1; }
 
+#search-bar button {
+  background-color: #8093f1;
+  color: #f5f0f0; }
+
+#search-bar input {
+  border: none;
+  background-color: #A3B1F5;
+  padding: 0.5em; }
+
+#faq-menu li {
+  margin: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid 0.1em #8093f1; }
+
 #index-sections {
   font-family: "DM Serif Display", serif;
   font-weight: 700; }
@@ -117,7 +133,7 @@ select {
     background-color: #8093f1;
     color: #f5f0f0; }
 
-#index-hero a {
+#index-hero button {
   background-color: #8093f1;
   color: #f5f0f0; }
 
@@ -135,12 +151,3 @@ select {
   #tienda-filtro a {
     color: #f5f0f0;
     font-size: 700; }
-
-#search-bar button {
-  background-color: #8093f1;
-  color: #f5f0f0; }
-
-#search-bar input {
-  border: none;
-  background-color: #A3B1F5;
-  padding: 0.5em; }
