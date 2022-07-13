@@ -62,91 +62,77 @@
             </li>
           </ul>
         </div>
-      </div>
-      
+      </div>  
     </nav>
   </header>
 
 <div class="d-flex flex-column">
 
-  <div class="col-lg-4 col-md-6 col-sm-12">
-  	<div class="input-group my-5" id="search-bar">
-  	  <div class="form-outline">
-  	    <input type="search" id="form1" class="" />
-  	  </div>
-  	  <button type="button" class="btn btn-primary text-center border-0">
-  	    <span class="material-symbols-outlined">search</span>
-  	  </button>
-  	</div>
 
-    <!--Starts FAQS Nav-->
-  	<ul class="list-group">
-  	  <li class="list-group-item">¿Cómo realizar una compra?</li>
-  	  <li class="list-group-item">¿Cómo calculo el costo de envío?</li>
-  	  <li class="list-group-item">Tiempos de envío</li>
-  	  <li class="list-group-item">Envíos internacionales</li>
-  	  <li class="list-group-item">Métodos de pago</li>
-  	</ul>
-    <!--Ends FAQS Nav-->
-  </div>
+  <div>
+    
+    <div class="">
+      <!--Starts Search Bar-->  	
+      <div class="d-flex flex-row" id="search-bar">
+    	  <div class="form-outline">
+    	    <input type="search" id="form1" class="" />
+    	  </div>
+    	  <button type="button" class="btn btn-primary text-center border-0">
+    	    <span class="material-symbols-outlined">search</span>
+    	  </button>
+    	</div>
 
-  <div class="list-group col-lg-6 col-md-6 col-sm-12 py-5">
+      <!--Starts FAQS Nav-->
+    	<ul class="list-group rounded-0" id="faq-menu">
+    	  <li class="list-group-item">¿Cómo realizar una compra?</li>
+    	  <li class="list-group-item borde-0">¿Cómo calculo el costo de envío?</li>
+    	  <li class="list-group-item">Tiempos de envío</li>
+    	  <li class="list-group-item">Envíos internacionales</li>
+    	  <li class="list-group-item">Métodos de pago</li>
+    	</ul>
+      <!--Ends FAQS Nav-->
+    </div>
+
+  <div class="list-group">
     <a href="#e" data-mdb-toggle="collapse" aria-expanded="false"
       aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
       <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Question 1</h5>
+        <h5 class="mb-1">Formas de pago</h5>
       </div>
       <p class="mb-1">
-        Short & concise version of the answer.
+        Contamos con pago por medio de Paypal, con tarjeta de crédito o débito, utilizando American Express, Master Card o Visa. Te garantizamos que tu compra es segura. Paypal es una empresa fiable y que respalda al comprador.
       </p>
-      <small><u>Learn more</u></small>
-      <!-- Collapsed content -->
-      <div class="collapse mt-3" id="shortExampleAnswer1collapse">
-        Detailed and comprehensive answer goes here. pariatur cliche reprehenderit, enim eiusmod
-        high
-        life accusamus terry richardson ad
-        squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-        sapiente ea proident.
-      </div>
     </a>
     <a href="#shortExampleAnswer2collapse" data-mdb-toggle="collapse" aria-expanded="false"
       aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
       <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Question 2</h5>
+        <h5 class="mb-1">Reembolso y devoluciones</h5>
       </div>
       <p class="mb-1">
-        Short & concise version of the answer.
+        Lamentamos mucho de antemano que hayas tenido alguna inconformidad con tu pedido, para solicitar una devolución es necesario nos envíes un correo a info@axolotestore.com compartiéndonos tu motivo de la devolución y número de pedido.
       </p>
-      <small class="text-muted"><u>Learn more</u></small>
-      <!-- Collapsed content -->
-      <div class="collapse mt-3" id="shortExampleAnswer2collapse">
-        Detailed and comprehensive answer goes here. pariatur cliche reprehenderit, enim eiusmod
-        high
-        life accusamus terry richardson ad
-        squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-        sapiente ea proident.
-      </div>
     </a>
     <a href="#shortExampleAnswer3collapse" data-mdb-toggle="collapse" aria-expanded="false"
       aria-controls="shortExampleAnswer1collapse" class="list-group-item list-group-item-action">
       <div class="d-flex w-100 justify-content-between">
-        <h5 class="mb-1">Question 3</h5>
+        <h5 class="mb-1">Envíos</h5>
       </div>
       <p class="mb-1">
-        Short & concise version of the answer.
+        Contamos con diferentes métodos de envío acorde a tus necesidades. Puedes consultar sus costos y tiempos de entrega a continuación:
+
+        Envíos locales (Monterrey y Zona Metropolitana):
+        $90  /  1 a 2 semanas 
+
+        Envíos Nacionales:
+        Correos de México $60  /  1 a 2 semanas 
+
+        Paquetería privada $90 / 3-7 días 
+
+        Envíos Internacionales:
+        Correos de México $250 / 1 a 2 meses
       </p>
-      <small class="text-muted"><u>Learn more</u></small>
-      <!-- Collapsed content -->
-      <div class="collapse mt-3" id="shortExampleAnswer3collapse">
-        Detailed and comprehensive answer goes here. pariatur cliche reprehenderit, enim eiusmod
-        high
-        life accusamus terry richardson ad
-        squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-        sapiente ea proident.
-      </div>
     </a>
   </div>
-
 </div>
 
   <!--Starts Footer-->
@@ -194,10 +180,5 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-
 </body>
 </html>
-
-
-
-
