@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: $main-font;
+}
+
+a{
+	text-decoration: none;
+	color: $black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: $secondary-font;
+	color: $main-color;
+	font-weight: $bold;
+}
+
+h1{
+	font-size: $text-xlg;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: $text-lg;
+}
+
+h3,
+h4{
+	font-size: $text-md;
+}
+
+h5,
+h6{
+	font-size: $text-sm;	
+}
+
+p{
+	color: $black;
+	font-size: $text-sm;
+}
+
+input[type=submit]{
+	border: none;
+	font-weight: 700;
+	color: $main-color;
+	transition: all .2s ease;
+	border: 3px solid $main-color;
+	background-color : transparent;
+	padding: .5em;	
+}
+
+input[type=submit]:hover{
+	color: $white;
+	background-color: $main-color;
+}
+
+input{
+	border: none;
+	background-color: $clear-color;
+	padding: 0.5em;
+}
+
+
+textarea{
+	border: none;
+	background-color: $clear-color;
+}
+
+select{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	border: solid .1em $white;
+	background-color: $clear-color;
+	padding: 1em 2em;
+	text-align: center;
+	color: $white;
+}
+
+::placeholder{
+	color: $white;
+}
+
+#formularios{
+		button{
+			background-color: $main-color;
+			color: $white,
+
+		}
+		input{
+			border: none;
+			background-color: $clear-color;
+			padding: 0.5em;
+		}	
+}
+
+.purple-bg{
+	background-color: $purple-bg;
+}
+
+.strong-purple-bg{
+	background-color: $main-color;
+}
+
+#index-sections{
+
+	font-family: $secondary-font;
+	font-weight: $bold;	
+		button{
+			background-color: $main-color;
+			color: $white,
+		}
+}
+
+#index-hero{
+	a{
+		background-color: $main-color;
+		color: $white,	
+	}
+}
+
+
+#index-about{
+	background-image: url(../img/about-image.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+#tienda-filtro{
+	font-family: $secondary-font;
+	color: $white;
+	font-size: $text-md;
+	margin: 0;
+	a{
+		color: $white;
+		font-size: $bold;
+	}
+}	
+
+#search-bar{
+	button{
+		background-color: $main-color;
+		color: $white,
+
+	}
+	input{
+		border: none;
+		background-color: $clear-color;
+		padding: 0.5em;
+	}		
+}
