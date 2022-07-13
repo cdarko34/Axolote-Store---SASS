@@ -107,42 +107,6 @@ select{
 
 .strong-purple-bg{
 	background-color: $main-color;
-}
-
-#index-sections{
-
-	font-family: $secondary-font;
-	font-weight: $bold;	
-		button{
-			background-color: $main-color;
-			color: $white,
-		}
-}
-
-#index-hero{
-	a{
-		background-color: $main-color;
-		color: $white,	
-	}
-}
-
-
-#index-about{
-	background-image: url(../img/about-image.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;	
-}
-
-#tienda-filtro{
-	font-family: $secondary-font;
-	color: $white;
-	font-size: $text-md;
-	margin: 0;
-	a{
-		color: $white;
-		font-size: $bold;
-	}
 }	
 
 #search-bar{
@@ -156,4 +120,15 @@ select{
 		background-color: $clear-color;
 		padding: 0.5em;
 	}		
+}
+
+#faq-menu{
+	li{
+		
+		margin: 0;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		border-bottom: solid .1em $main-color;	
+	}
 }
