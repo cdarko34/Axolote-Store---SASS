@@ -84,6 +84,12 @@ select{
 	color: $white;
 }
 
+#button-purple{
+	background-color: $main-color;
+	color: $white,
+
+}
+
 ::placeholder{
 	color: $white;
 }
@@ -131,4 +137,14 @@ select{
 		border-right: 0;
 		border-bottom: solid .1em $main-color;	
 	}
+}
+
+#contact-bg{
+	
+background-image: linear-gradient(rgba(128, 147, 241, 0.5), rgba(128, 147, 241, 0.5)), url("../img/banner-contacto.png");
+	min-height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }

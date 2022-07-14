@@ -67,22 +67,44 @@
       </nav>
     </header>
 	<!--Ends nav-->
-	<section id="contact-wrapper">
-		<div id="contact-title">
-			<h1>contáctanos</h1>
-			<p>Lorem ipsum dolor sit amet.</p>
+
+	<div class="d-flex row align-items-center p-3" id="contact-bg">
+
+		<div class="col-lg-5 col-md-5 col-sm-12 text-center">
+			<h1 class="text-white">Contáctanos</h1>
+			<p>Queremos escucharte</p>
+
 		</div>
-		<form action="" id="contact-form">
-			<label for="email">Email</label>
-			<input type="email" placeholder="nombre@correo.com">
-			<label for="nombre">Nombre</label>
-			<input type="text" placeholder="Indica tu nombre aquí">
-			<label for="mensaje">Mensaje</label>	
-			<textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-			<input type="submit" value="Enviar ">				
-		</form>
-	</section>
-	<!--------------Ends contact-------------->
+
+		<div class="py-4 col-lg-6 col-md-6 col-sm-12 bg-white">
+		  <!-- Starts formulario-->
+			  <form id="contactForm">
+
+			    <div class="mb-3">
+			      <label for="name">Nombre</label>
+			      <input class="w-100" id="name" type="text" placeholder="Nombre" />
+			    </div>
+
+			    <div class="mb-3">
+			      <label for="emailAddress">Email</label>
+			      <input class="w-100" id="emailAddress" type="email" placeholder="nombre@correo.com" />
+			    </div>
+
+			    <!-- Message input -->
+			    <div class="mb-3">
+			      <label for="message">Mensaje</label>
+			      <textarea class="w-100" id="message" type="text" placeholder="Déjanos un mensaje" style="height: 10rem;"></textarea>
+			    </div>
+
+			    <!-- Form submit button -->
+			    <div class="d-grid">
+			      <button class="btn" type="submit" id="button-purple">Enviar</button>
+			    </div>
+
+			  </form>
+
+			</div>
+	</div>	
 
   <!--Starts Footer-->
 	<footer class="text-center text-md-start mt-3 ">

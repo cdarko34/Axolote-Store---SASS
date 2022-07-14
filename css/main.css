@@ -92,6 +92,10 @@ select {
   text-align: center;
   color: #f5f0f0; }
 
+#button-purple {
+  background-color: #8093f1;
+  color: #f5f0f0; }
+
 ::placeholder {
   color: #f5f0f0; }
 
@@ -125,6 +129,14 @@ select {
   border-left: 0;
   border-right: 0;
   border-bottom: solid 0.1em #8093f1; }
+
+#contact-bg {
+  background-image: linear-gradient(rgba(128, 147, 241, 0.5), rgba(128, 147, 241, 0.5)), url("../img/banner-contacto.png");
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
 
 #index-sections {
   font-family: "DM Serif Display", serif;
